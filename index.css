@@ -144,3 +144,26 @@ ul {
     opacity: 1;
   }
   
+
+  /* .card-body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+.card-body .btn {
+    margin-top: auto; /* Pushes the button to the bottom
+    display: inline-block;
+    width: auto;
+} */
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.btn-primary {
+    align-self: flex-start;
+    padding: 0.5rem 1rem;
+}

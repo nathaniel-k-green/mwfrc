@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Short Sleeve Tee",
+        "colors": [
+            "Grey",
+            "White",
+            "Black",
+            "Blue"
+        ],
+        "product_type": "t-shirt",
+        "price" : 24,
+        "image" : "tmp_shirt.JPG"
+    }
+]
