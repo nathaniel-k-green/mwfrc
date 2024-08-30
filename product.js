@@ -41,11 +41,12 @@ function add_to_html(data) {
                         </div>
                     </div>`
                 {/* </div>` */}
-        const first = document.getElementById("FIRST")
-        var x = document.createElement("div")
+        const first = document.getElementById("FIRST");
+        var x = document.createElement("div");
         x.classList.add("col");
-        x.innerHTML = html
-        first.appendChild(document.createElement(x))
+        x.innerHTML = html;
+        var z = document.createElement(x)
+        first.appendChild(z);
         console.log(html);
     }
 
