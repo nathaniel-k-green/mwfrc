@@ -14,6 +14,7 @@ function load_products() {
         })
         .then(data => {
             console.log(data); // Use the JSON data here
+            console.log(typeof(data));
             add_to_html(data);
         })
         .catch(error => {
@@ -29,6 +30,7 @@ function load_products() {
 function add_to_html(data) {
     for (product in data) {
         // html = `<div class="col">
+        
         html = `
                     <div class="card h-100" style="width: 18rem;">
                         <img class="card-img-top" src="images/${product["image"]}" alt="Card image cap">
