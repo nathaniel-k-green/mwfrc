@@ -40,7 +40,7 @@ function add_to_html(data) {
                         </div>
                     </div>
                 </div>`
-        first = document.getElementById("FIRST")
+        const first = document.getElementById("FIRST")
         first.appendChild(html)
         console.log(html);
     }
