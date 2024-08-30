@@ -44,6 +44,6 @@ function add_to_html(data) {
         first.appendChild(html)
     }
 
-    // }
+}
 
-    load_products()
+load_products();
