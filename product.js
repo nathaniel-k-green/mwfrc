@@ -41,8 +41,9 @@ function add_to_html(data) {
                     </div>
                 </div>`
         const first = document.getElementById("FIRST")
-        // document.createElement(html)
-        first.appendChild(document.createElement(html))
+        var x = document.createElement("div")
+        x.innerHTML = html
+        first.appendChild(document.createElement(x))
         console.log(html);
     }
 
