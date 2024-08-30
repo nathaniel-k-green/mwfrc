@@ -28,7 +28,7 @@ function load_products() {
 // }
 
 function add_to_html(data) {
-    for (product in data) {
+    for (product of data) {
         // html = `<div class="col">
         
         html = `
