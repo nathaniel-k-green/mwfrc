@@ -28,7 +28,8 @@ function load_products() {
 
 function add_to_html(data) {
     for (product in data) {
-        html = `<div class="col">
+        // html = `<div class="col">
+        html = `
                     <div class="card h-100" style="width: 18rem;">
                         <img class="card-img-top" src="images/${"image"}" alt="Card image cap">
                         <div class="card-body">
@@ -38,10 +39,11 @@ function add_to_html(data) {
                             <p class="card-text">${product["desc"]}</p>
                             <a href="https://www.etsy.com/" class="btn btn-primary">View</a>
                         </div>
-                    </div>
-                </div>`
+                    </div>`
+                {/* </div>` */}
         const first = document.getElementById("FIRST")
         var x = document.createElement("div")
+        x.classList.add("col");
         x.innerHTML = html
         first.appendChild(document.createElement(x))
         console.log(html);
