@@ -34,8 +34,10 @@ function add_to_html(data) {
         html = `
                     <div class="card h-100" style="width: 18rem;">
                         <img class="card-img-top" src="images/${product["image"]}" alt="Card image cap">
-                        <div class="card-body">
+                        <div class="card-img-overlay">
                             <p id="is-new" style="color:coral; font-size: .75em;">NEW</p>
+                        <div>
+                        <div class="card-body">
                             <h5 class="card-title">${product["name"]}</h5>
                             <h6 class="card-title">$${product["price"]}</h6>
                             <p class="card-text">${product["desc"]}</p>
