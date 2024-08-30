@@ -45,8 +45,7 @@ function add_to_html(data) {
         var x = document.createElement("div");
         x.classList.add("col");
         x.innerHTML = html;
-        var z = document.createElement(x)
-        first.appendChild(z);
+        first.appendChild(x);
         console.log(html);
     }
 
