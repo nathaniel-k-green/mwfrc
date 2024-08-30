@@ -31,7 +31,7 @@ function add_to_html(data) {
         // html = `<div class="col">
         html = `
                     <div class="card h-100" style="width: 18rem;">
-                        <img class="card-img-top" src="images/${"image"}" alt="Card image cap">
+                        <img class="card-img-top" src="images/${product["image"]}" alt="Card image cap">
                         <div class="card-body">
                             <p id="is-new" style="color:coral; font-size: .75em;">NEW</p>
                             <h5 class="card-title">${product["name"]}</h5>
