@@ -42,6 +42,7 @@ function add_to_html(data) {
                 </div>`
         first = document.getElementById("FIRST")
         first.appendChild(html)
+        console.log(html);
     }
 
 }
