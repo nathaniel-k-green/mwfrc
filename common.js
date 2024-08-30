@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+function place_navbar() {
     fetch('navbar.html')
       .then(response => response.text())
       .then(data => {
@@ -42,6 +42,6 @@ document.addEventListener("DOMContentLoaded", function() {
           </div>
       </nav>`;
       });
-  });
+  }
 
 
