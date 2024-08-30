@@ -72,7 +72,11 @@ ul {
   } */
 
 
-  .my-form {
+
+
+  /* wrguaernar */
+
+  /* .my-form {
     --_clr-primary: #666;
     --_clr-hover: #f33195;
     --_clr-checked: #127acf;
@@ -166,4 +170,4 @@ ul {
 .btn-primary {
     align-self: flex-start;
     padding: 0.5rem 1rem;
-}
+} */
