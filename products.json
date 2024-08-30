@@ -9,6 +9,7 @@
         ],
         "product_type": "t-shirt",
         "price" : 24,
+        "desc" : "Light weight short sleeve t good for warm weather riding.",
         "image" : "tmp_shirt.JPG"
     }
 ]
