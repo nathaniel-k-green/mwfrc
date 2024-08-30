@@ -11,5 +11,17 @@
         "price" : 24,
         "desc" : "Light weight short sleeve t good for warm weather riding.",
         "image" : "tmp_shirt.JPG"
+    },
+    {
+        "name": "Long Sleeve Tee",
+        "colors": [
+            "Grey",
+            "White",
+            "Blue"
+        ],
+        "product_type": "long sleeve shirt",
+        "price" : 24,
+        "desc" : "heavy weight shirt good for cold weather riding.",
+        "image" : "tmp_shirt.JPG"
     }
 ]
