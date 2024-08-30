@@ -3,7 +3,7 @@
 function load_products() {
     data = "hello"
     console.log(data)
-    fetch("products.json")
+    fetch("https://github.com/nathaniel-k-green/mwfrc/products.json")
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok');
