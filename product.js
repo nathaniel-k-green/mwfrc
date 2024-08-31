@@ -1,5 +1,6 @@
 // import data from './products.json' assert { type: 'json' };
 
+
 function load_products() {
     data = "hello"
     console.log(data)
@@ -13,8 +14,9 @@ function load_products() {
             return response.json();
         })
         .then(data => {
-            console.log(data); // Use the JSON data here
+            // console.log(data); // Use the JSON data here
             add_to_html(data);
+            sessionStorage['product_data'] = data
         })
         .catch(error => {
             console.error('There has been a problem with your fetch operation:', error);
@@ -48,16 +50,27 @@ function add_to_html(data) {
                     </div>
                 </div>`
         
-        // const first = document.getElementById("FIRST");
-        // const x = document.createElement("div");
-        // x.classList.add("col");
-        // x.innerHTML = html;
-        // first.appendChild(x);
         console.log(html);
     }
     const product_grid = document.getElementById("product_grid");
     product_grid.innerHTML = html;
 
+}
+
+
+function filter(rule){
+    data = JSON.parse(sessionStorage['product_data']);
+    filtered_data = []
+    first_rule = rule[0] == null
+    second_rule = rule[1] == null
+    for (product of data) {
+        if (first_rule || product["product_type"] in rule[0]) {
+            if (second_rule || product["price"] in rule[1]) {
+
+            }
+        }
+    }
+    
 }
 
 load_products();

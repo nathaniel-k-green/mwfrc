@@ -23,5 +23,17 @@
         "price" : 24,
         "desc" : "heavy weight shirt good for cold weather riding.",
         "image" : "tmp_shirt.JPG"
+    },
+    {
+        "name": "Pants",
+        "colors": [
+            "Grey",
+            "White",
+            "Blue"
+        ],
+        "product_type": "long sleeve shirt",
+        "price" : 24,
+        "desc" : "heavy weight shirt good for cold weather riding.",
+        "image" : "tmp_shirt.JPG"
     }
 ]
